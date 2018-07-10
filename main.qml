@@ -45,7 +45,7 @@ import "js/Windows.js" as Windows
 
 ApplicationWindow {
     id: appWindow
-    title: "BitTube"
+    title: "IPBC"
 
     property var currentItem
     property bool whatIsEnable: false
@@ -75,7 +75,7 @@ ApplicationWindow {
     property bool remoteNodeConnected: false
     property bool androidCloseTapped: false;
     // Default daemon addresses
-    readonly property string localDaemonAddress : persistentSettings.nettype == NetworkType.MAINNET ? "localhost:24182" : persistentSettings.nettype == NetworkType.TESTNET ? "localhost:34182" : "localhost:44182"
+    readonly property string localDaemonAddress : persistentSettings.nettype == NetworkType.MAINNET ? "localhost:24282" : persistentSettings.nettype == NetworkType.TESTNET ? "localhost:34282" : "localhost:44282"
     property string currentDaemonAddress;
     property bool startLocalNodeCancelled: false
     property int estimatedBlockchainSize: 50 // GB
@@ -294,10 +294,10 @@ ApplicationWindow {
         viewOnly = currentWallet.viewOnly;
 
         // New wallets saves the testnet flag in keys file.
-        // if(persistentSettings.nettype != currentWallet.nettype) {
-        //     console.log("Using network type from keys file")
-        //     persistentSettings.nettype = currentWallet.nettype;
-        // }
+        if(persistentSettings.nettype != currentWallet.nettype) {
+            console.log("Using network type from keys file")
+            persistentSettings.nettype = currentWallet.nettype;
+        }
 
         // connect handlers
         currentWallet.refreshed.connect(onWalletRefresh)
@@ -529,7 +529,7 @@ ApplicationWindow {
         currentWallet.startRefresh();
         daemonRunning = false;
         informationPopup.title = qsTr("Daemon failed to start") + translationManager.emptyString;
-        informationPopup.text  = qsTr("Please check your wallet and daemon log for errors. You can also try to start %1 manually.").arg((isWindows)? "bittubed.exe" : "bittubed")
+        informationPopup.text  = qsTr("Please check your wallet and daemon log for errors. You can also try to start %1 manually.").arg((isWindows)? "ipbcd.exe" : "ipbcd")
         informationPopup.icon  = StandardIcon.Critical
         informationPopup.onCloseCallback = null
         informationPopup.open();
@@ -1289,7 +1289,7 @@ ApplicationWindow {
 //                PropertyChanges { target: frameArea; blocked: true }
                 PropertyChanges { target: titleBar; visible: true }
 //                PropertyChanges { target: titleBar; y: 0 }
-                // PropertyChanges { target: titleBar; title: qsTr("BitTube") + translationManager.emptyString }
+                // PropertyChanges { target: titleBar; title: qsTr("IPBC") + translationManager.emptyString }
                 PropertyChanges { target: mobileHeader; visible: isMobile ? true : false }
             }
         ]
@@ -1787,7 +1787,7 @@ ApplicationWindow {
           var hash = parts[1]
           var user_url = parts[2]
           var auto_url = parts[3]
-          var msg = qsTr("New version of bittube-wallet-gui is available: %1<br>%2").arg(version).arg(user_url) + translationManager.emptyString
+          var msg = qsTr("New version of ipbc-wallet-gui is available: %1<br>%2").arg(version).arg(user_url) + translationManager.emptyString
           notifier.show(msg)
         }
         else {
@@ -1796,7 +1796,7 @@ ApplicationWindow {
     }
 
     function checkUpdates() {
-        walletManager.checkUpdatesAsync("bittube-wallet-gui", "gui")
+        walletManager.checkUpdatesAsync("ipbc-wallet-gui", "gui")
     }
 
     Timer {

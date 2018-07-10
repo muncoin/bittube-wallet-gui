@@ -263,7 +263,7 @@ Rectangle {
                     daemonPortText: {
                         var node_split = persistentSettings.bootstrapNodeAddress.split(":");
                         if(node_split.length == 2){
-                            (node_split[1].trim() == "") ? "24182" : node_split[1];
+                            (node_split[1].trim() == "") ? "34282" : node_split[1];
                         } else {
                             return ""
                         }

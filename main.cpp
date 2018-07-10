@@ -129,9 +129,9 @@ int main(int argc, char *argv[])
 
     //----------------------------------
 
-    app.setApplicationName("bittube-wallet-gui");
-    app.setOrganizationDomain("bit.tube");
-    app.setOrganizationName("bittube");
+    app.setApplicationName("ipbc-wallet-gui");
+    app.setOrganizationDomain("ipbc.rocks");
+    app.setOrganizationName("ipbc");
 
 #if defined(Q_OS_LINUX)
     if (isDesktop) app.setWindowIcon(QIcon(":/images/appicon-white.ico"));
@@ -156,7 +156,7 @@ int main(int argc, char *argv[])
 
     // Log settings
     const QString logPath = getLogPath(parser.value(logPathOption));
-    Monero::Wallet::init(argv[0], "bittube-wallet-gui", logPath.toStdString().c_str(), true);
+    Monero::Wallet::init(argv[0], "ipbc-wallet-gui", logPath.toStdString().c_str(), true);
     qInstallMessageHandler(messageHandler);
 
 
@@ -288,7 +288,7 @@ int main(int argc, char *argv[])
 
     if (!moneroAccountsRootDir.empty())
     {
-        QString moneroAccountsDir = moneroAccountsRootDir.at(0) + "/BitTube/wallets";
+        QString moneroAccountsDir = moneroAccountsRootDir.at(0) + "/IPBC/wallets";
         engine.rootContext()->setContextProperty("moneroAccountsDir", moneroAccountsDir);
     }
 
@@ -298,7 +298,7 @@ int main(int argc, char *argv[])
     if (accountName.isEmpty())
         accountName = qgetenv("USERNAME"); // Windows
     if (accountName.isEmpty())
-        accountName = "My BitTube Account";
+        accountName = "My IPBC Account";
 
     engine.rootContext()->setContextProperty("defaultAccountName", accountName);
     engine.rootContext()->setContextProperty("applicationDirectory", QApplication::applicationDirPath());

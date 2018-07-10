@@ -49,7 +49,7 @@ ColumnLayout {
         appWindow.persistentSettings.language = wizard.settings.language
         appWindow.persistentSettings.locale   = wizard.settings.locale
 
-        appWindow.persistentSettings.nettype = NetworkType.MAINNET;
+        //appWindow.persistentSettings.nettype = NetworkType.MAINNET;
         return true;
     }
 
@@ -248,14 +248,12 @@ ColumnLayout {
                 borderColor: Qt.rgba(0, 0, 0, 0.45)
                 fontColor: "#4A4646"
                 fontSize: 16 * scaleRatio
-                // checked: appWindow.persistentSettings.nettype == NetworkType.TESTNET;
-                // onClicked: {
-                //     persistentSettings.nettype = testNet.checked ? NetworkType.TESTNET : NetworkType.MAINNET
-                //     stageNet.checked = false;
-                //     console.log("Network type set to ", persistentSettings.nettype == NetworkType.TESTNET ? "Testnet" : "Mainnet")
-                // }
-                checked: false
-                visible: false
+                checked: appWindow.persistentSettings.nettype == NetworkType.TESTNET;
+                onClicked: {
+                    persistentSettings.nettype = testNet.checked ? NetworkType.TESTNET : NetworkType.MAINNET
+                    stageNet.checked = false;
+                    console.log("Network type set to ", persistentSettings.nettype == NetworkType.TESTNET ? "Testnet" : "Mainnet")
+                }
             }
         }
 
