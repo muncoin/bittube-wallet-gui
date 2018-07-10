@@ -63,8 +63,8 @@ fi
 source ./utils.sh
 pushd $(pwd)
 ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-BITTUBE_DIR=bittube
-BITTUBED_EXEC=bittubed
+BITTUBE_DIR=ipbc
+BITTUBED_EXEC=ipbcd
 
 MAKE='make'
 if [[ $platform == *bsd* ]]; then
@@ -91,9 +91,9 @@ if [ "$ANDROID" != true ] && ([ "$platform" == "linux32" ] || [ "$platform" == "
 fi
 
 if [ "$platform" == "darwin" ]; then
-    BIN_PATH=$BIN_PATH/bittube-wallet-gui.app/Contents/MacOS/
+    BIN_PATH=$BIN_PATH/ipbc-wallet-gui.app/Contents/MacOS/
 elif [ "$platform" == "mingw64" ] || [ "$platform" == "mingw32" ]; then
-    BITTUBED_EXEC=bittubed.exe
+    BITTUBED_EXEC=ipbcd.exe
 fi
 
 # force version update
@@ -109,7 +109,7 @@ if ! QMAKE=$(find_command qmake qmake-qt5); then
     echo "Failed to find suitable qmake command."
     exit 1
 fi
-$QMAKE ../bittube-wallet-gui.pro "$CONFIG" || exit
+$QMAKE ../ipbc-wallet-gui.pro "$CONFIG" || exit
 $MAKE || exit 
 
 # Copy bittubed to bin folder

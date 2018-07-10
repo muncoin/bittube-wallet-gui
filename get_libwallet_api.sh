@@ -1,5 +1,5 @@
 #!/bin/bash
-BITTUBE_URL=https://github.com/ipbc-dev/bittube.git
+BITTUBE_URL=https://github.com/muncoin/ipbc.git
 BITTUBE_BRANCH=master
 
 pushd $(pwd)
@@ -8,12 +8,12 @@ ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 source $ROOT_DIR/utils.sh
 
 INSTALL_DIR=$ROOT_DIR/wallet
-BITTUBE_DIR=$ROOT_DIR/bittube
+BITTUBE_DIR=$ROOT_DIR/ipbc
 BUILD_LIBWALLET=false
 
-# init and update bittube submodule
+# init and update ipbc submodule
 if [ ! -d $BITTUBE_DIR/src ]; then
-    git submodule init bittube
+    git submodule init ipbc
 fi
 git submodule update --remote
 # git -C $BITTUBE_DIR fetch

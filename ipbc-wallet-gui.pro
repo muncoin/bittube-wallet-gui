@@ -7,7 +7,7 @@ TEMPLATE = app
 
 QT += qml quick network widgets
 
-WALLET_ROOT=$$PWD/bittube
+WALLET_ROOT=$$PWD/ipbc
 
 CONFIG += c++11 link_pkgconfig
 packagesExist(libpcsclite) {
@@ -18,7 +18,7 @@ packagesExist(libpcsclite) {
 QMAKE_CXXFLAGS += -fPIC -fstack-protector
 QMAKE_LFLAGS += -fstack-protector
 
-# cleaning "auto-generated" bittube directory on "make distclean"
+# cleaning "auto-generated" ipbc directory on "make distclean"
 QMAKE_DISTCLEAN += -r $$WALLET_ROOT
 
 INCLUDEPATH +=  $$WALLET_ROOT/include \
@@ -301,7 +301,7 @@ linux {
             -Wl,-Bdynamic \
             -lGL
     }
-    # currently bittube has an issue with "static" build and linunwind-dev,
+    # currently ipbc has an issue with "static" build and linunwind-dev,
     # so we link libunwind-dev only for non-Ubuntu distros
     CONFIG(libunwind_off) {
         message(Building without libunwind)
@@ -341,7 +341,7 @@ macx {
 
 
 # translation stuff
-TRANSLATIONS = $$files($$PWD/translations/bittube-core_*.ts)
+TRANSLATIONS = $$files($$PWD/translations/ipbc-core_*.ts)
 
 CONFIG(release, debug|release) {
     DESTDIR = release/bin
@@ -436,7 +436,7 @@ linux:!android {
 }
 
 android{
-    deploy.commands += make install INSTALL_ROOT=$$DESTDIR && androiddeployqt --input android-libbittube-wallet-gui.so-deployment-settings.json --output $$DESTDIR --deployment bundled --android-platform android-21 --jdk /usr/lib/jvm/java-8-openjdk-amd64 -qmldir=$$PWD
+    deploy.commands += make install INSTALL_ROOT=$$DESTDIR && androiddeployqt --input android-libipbc-wallet-gui.so-deployment-settings.json --output $$DESTDIR --deployment bundled --android-platform android-21 --jdk /usr/lib/jvm/java-8-openjdk-amd64 -qmldir=$$PWD
 }
 
 
@@ -446,7 +446,7 @@ OTHER_FILES += \
 
 DISTFILES += \
     notes.txt \
-    bittube/src/wallet/CMakeLists.txt \
+    ipbc/src/wallet/CMakeLists.txt \
     components/MobileHeader.qml
 
 
