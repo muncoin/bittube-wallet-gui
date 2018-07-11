@@ -174,7 +174,7 @@ ListView {
                         _amount = (_amount *1);
                     }
 
-                    return _amount + " TUBE";
+                    return _amount + " IPBC";
                 }
                 color: isOut ? "#808080" : "#86af49"
             }
@@ -312,7 +312,7 @@ ListView {
                     if(!isOut && !fee){
                         return "-";
                     } else if(isOut && fee){
-                        return fee + " TUBE";
+                        return fee + " IPBC";
                     } else {
                         return "Unknown"
                     }
