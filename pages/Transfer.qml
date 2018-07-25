@@ -44,7 +44,7 @@ Rectangle {
     signal sweepUnmixableClicked()
 
     color: "transparent"
-    property string startLinkText: qsTr("<style type='text/css'>a {text-decoration: none; color: #86af49; font-size: 14px;}</style><font size='2'> (</font><a href='#'>Start daemon</a><font size='2'>)</font>") + translationManager.emptyString
+    property string startLinkText: qsTr("<style type='text/css'>a {text-decoration: none; color: #a8b8cb; font-size: 14px;}</style><font size='2'> (</font><a href='#'>Start daemon</a><font size='2'>)</font>") + translationManager.emptyString
     property bool showAdvanced: false
     radius: 4
 

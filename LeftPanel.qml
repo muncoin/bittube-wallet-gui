@@ -406,7 +406,7 @@ Rectangle {
             // ------------- Mining tab ---------------
             MenuButton {
                 id: miningButton
-                visible: !isAndroid && !isIOS
+                visible: false
                 anchors.left: parent.left
                 anchors.right: parent.right
                 text: qsTr("Mining") + translationManager.emptyString
@@ -421,7 +421,7 @@ Rectangle {
             }
 
             Rectangle {
-                visible: miningButton.present
+                visible: false
                 anchors.left: parent.left
                 anchors.right: parent.right
                 anchors.leftMargin: 16
@@ -478,6 +478,7 @@ Rectangle {
             // ------------- Shared RingDB tab ---------------
             MenuButton {
                 id: sharedringdbButton
+				visible: false
                 anchors.left: parent.left
                 anchors.right: parent.right
                 text: qsTr("Shared RingDB") + translationManager.emptyString
@@ -491,7 +492,7 @@ Rectangle {
                 }
             }
             Rectangle {
-                visible: sharedringdbButton.present
+                visible: false
                 anchors.left: parent.left
                 anchors.right: parent.right
                 anchors.leftMargin: 16
@@ -502,6 +503,7 @@ Rectangle {
             // ------------- Sign/verify tab ---------------
             MenuButton {
                 id: signButton
+				visible: false
                 anchors.left: parent.left
                 anchors.right: parent.right
                 text: qsTr("Sign/verify") + translationManager.emptyString
@@ -515,7 +517,7 @@ Rectangle {
                 }
             }
             Rectangle {
-                visible: signButton.present
+                visible: false
                 anchors.left: parent.left
                 anchors.right: parent.right
                 anchors.leftMargin: 16

@@ -677,7 +677,7 @@ Rectangle {
                 textFormat: Text.RichText
                 font.pixelSize: 14
                 font.bold: true
-                property var style: "<style type='text/css'>a {cursor:pointer;text-decoration: none; color: #86af49}</style>"
+                property var style: "<style type='text/css'>a {cursor:pointer;text-decoration: none; color: #a8b8cb}</style>"
                 text: (currentWallet ? currentWallet.walletCreationHeight : "") + style + qsTr(" <a href='#'> (Click to change)</a>") + translationManager.emptyString
                 onLinkActivated: {
                     inputDialog.labelText = qsTr("Set a new restore height:") + translationManager.emptyString;
