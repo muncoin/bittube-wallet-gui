@@ -24,7 +24,7 @@ QtObject {
     property string inputBorderColorInvalid:                "#ff0000"
     property string inputBackgroundColor:                   "#ffffff"
     //button
-    property string buttonBackgroundColor:                  "#86af49"
+    property string buttonBackgroundColor:                  "#a8b8cb"
     property string buttonBackgroundColorHover:             "#b0e660"
     property string buttonBackgroundColorDisabled:          "#BABABA"
     property string buttonBackgroundColorDisabledHover:     "#808080"
@@ -34,7 +34,7 @@ QtObject {
     property string dividerColor:                           "#d2d2d2"
     property real dividerOpacity:                           1
     //progressbar
-    property string progressbarBackgroundColor:             "#86af49"
+    property string progressbarBackgroundColor:             "#a8b8cb"
     //datepicker
     property string datepickerBackgroundColor:              "#ffffff"
     property string datepickerBorderColor:                  "#404040"
@@ -42,16 +42,16 @@ QtObject {
     property string dropdownContentBackgroundColor:         "#ffffff"
     property string dropdownContentFontColor:               "#404040"
     property string dropdownContentSelectedBackgroundColor: "#ffffff"
-    property string dropdownContentSelectedFontColor:       "#86af49"
+    property string dropdownContentSelectedFontColor:       "#a8b8cb"
     property string dropdownHeaderBackgroundColor:          "#ffffff"
     //calendar
-    property string calendarSelectedBackgroundColor:        "#86af49"
+    property string calendarSelectedBackgroundColor:        "#a8b8cb"
     //notifier
-    property string notifierBackgroundColor:                "#86af49"
+    property string notifierBackgroundColor:                "#a8b8cb"
     property string notifierFontColor:                      "#ffffff"
     //privacyLevel
     property string privacyLevelBackgroundColor:            "#ffffff"
-    property string privacyLevelBarColor:                   "#86af49"
+    property string privacyLevelBarColor:                   "#a8b8cb"
     //radiobutton
     property string radiobuttonCheckedColor:                "#464646"
     property string radiobuttonBorderColor:                 "#464646"

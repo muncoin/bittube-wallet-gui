@@ -1,5 +1,5 @@
 // Copyright (c) 2014-2018, The Monero Project
-// Copyright (c) 2018, The BitTube Project
+// Copyright (c) 2018, The IPBC Project
 // 
 // All rights reserved.
 // 
@@ -643,7 +643,7 @@ Rectangle {
             TextBlock {
                 id: guiMoneroVersion
                 font.pixelSize: 14
-                text: qsTr("Embedded BitTube version: ") + translationManager.emptyString
+                text: qsTr("Embedded IPBC version: ") + translationManager.emptyString
             }
 
             TextBlock {

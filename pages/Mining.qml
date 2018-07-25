@@ -1,5 +1,5 @@
 // Copyright (c) 2014-2018, The Monero Project
-// Copyright (c) 2018, The BitTube Project
+// Copyright (c) 2018, The IPBC Project
 // 
 // All rights reserved.
 // 
@@ -60,7 +60,7 @@ Rectangle {
             Label {
                 id: soloTitleLabel
                 fontSize: 24
-                text: qsTr("BitTube Miner") + translationManager.emptyString
+                text: qsTr("IPBC Miner") + translationManager.emptyString
             }
 
             // Label {
@@ -82,7 +82,7 @@ Rectangle {
 
             // Text {
             //     id: soloMainLabel
-            //     text: qsTr("Mining with your computer helps strengthen the BitTube network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.<br> <br>Mining also gives you a small chance to earn some TUBE. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!") + translationManager.emptyString
+            //     text: qsTr("Mining with your computer helps strengthen the IPBC network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.<br> <br>Mining also gives you a small chance to earn some TUBE. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!") + translationManager.emptyString
             //     wrapMode: Text.Wrap
             //     Layout.fillWidth: true
             //     font.family: Style.fontRegular.name

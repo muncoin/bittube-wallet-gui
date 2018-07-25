@@ -313,7 +313,7 @@ Rectangle {
                 anchors.right: parent.right
                 text: qsTr("Send") + translationManager.emptyString
                 symbol: qsTr("S") + translationManager.emptyString
-                dotColor: "#86af49"
+                dotColor: "#a8b8cb"
                 onClicked: {
                     parent.previousButton.checked = false
                     parent.previousButton = transferButton
@@ -338,7 +338,7 @@ Rectangle {
                 anchors.right: parent.right
                 text: qsTr("Address book") + translationManager.emptyString
                 symbol: qsTr("B") + translationManager.emptyString
-                dotColor: "#86af49"
+                dotColor: "#a8b8cb"
                 under: transferButton
                 onClicked: {
                     parent.previousButton.checked = false
@@ -363,7 +363,7 @@ Rectangle {
                 anchors.right: parent.right
                 text: qsTr("Receive") + translationManager.emptyString
                 symbol: qsTr("R") + translationManager.emptyString
-                dotColor: "#86af49"
+                dotColor: "#a8b8cb"
                 onClicked: {
                     parent.previousButton.checked = false
                     parent.previousButton = receiveButton
@@ -387,7 +387,7 @@ Rectangle {
                 anchors.right: parent.right
                 text: qsTr("History") + translationManager.emptyString
                 symbol: qsTr("H") + translationManager.emptyString
-                dotColor: "#86af49"
+                dotColor: "#a8b8cb"
                 onClicked: {
                     parent.previousButton.checked = false
                     parent.previousButton = historyButton
@@ -411,7 +411,7 @@ Rectangle {
                 anchors.right: parent.right
                 text: qsTr("Mining") + translationManager.emptyString
                 symbol: qsTr("M") + translationManager.emptyString
-                dotColor: "#86af49"
+                dotColor: "#a8b8cb"
                 // under: advancedButton
                 onClicked: {
                     parent.previousButton.checked = false
@@ -436,7 +436,7 @@ Rectangle {
                 anchors.right: parent.right
                 text: qsTr("Advanced") + translationManager.emptyString
                 symbol: qsTr("D") + translationManager.emptyString
-                dotColor: "#86af49"
+                dotColor: "#a8b8cb"
                 onClicked: {
                     parent.previousButton.checked = false
                     parent.previousButton = advancedButton
@@ -458,7 +458,7 @@ Rectangle {
                 anchors.right: parent.right
                 text: qsTr("Prove/check") + translationManager.emptyString
                 symbol: qsTr("K") + translationManager.emptyString
-                dotColor: "#86af49"
+                dotColor: "#a8b8cb"
                 under: advancedButton
                 onClicked: {
                     parent.previousButton.checked = false
@@ -482,7 +482,7 @@ Rectangle {
                 anchors.right: parent.right
                 text: qsTr("Shared RingDB") + translationManager.emptyString
                 symbol: qsTr("A") + translationManager.emptyString
-                dotColor: "#86af49"
+                dotColor: "#a8b8cb"
                 under: advancedButton
                 onClicked: {
                     parent.previousButton.checked = false
@@ -506,7 +506,7 @@ Rectangle {
                 anchors.right: parent.right
                 text: qsTr("Sign/verify") + translationManager.emptyString
                 symbol: qsTr("I") + translationManager.emptyString
-                dotColor: "#86af49"
+                dotColor: "#a8b8cb"
                 under: advancedButton
                 onClicked: {
                     parent.previousButton.checked = false
@@ -529,7 +529,7 @@ Rectangle {
                 anchors.right: parent.right
                 text: qsTr("Settings") + translationManager.emptyString
                 symbol: qsTr("E") + translationManager.emptyString
-                dotColor: "#86af49"
+                dotColor: "#a8b8cb"
                 under: advancedButton
                 onClicked: {
                     parent.previousButton.checked = false
@@ -552,7 +552,7 @@ Rectangle {
                 anchors.right: parent.right
                 text: qsTr("Seed & Keys") + translationManager.emptyString
                 symbol: qsTr("Y") + translationManager.emptyString
-                dotColor: "#86af49"
+                dotColor: "#a8b8cb"
                 under: advancedButton
                 onClicked: {
                     parent.previousButton.checked = false

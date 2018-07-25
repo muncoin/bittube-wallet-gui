@@ -81,7 +81,7 @@ ColumnLayout {
 
         ListModel {
             id: dotsModel
-            ListElement { dotColor: "#86af49" }
+            ListElement { dotColor: "#a8b8cb" }
             ListElement { dotColor: "#FFE00A" }
             ListElement { dotColor: "#DBDBDB" }
             ListElement { dotColor: "#DBDBDB" }

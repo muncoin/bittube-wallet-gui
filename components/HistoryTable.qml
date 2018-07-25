@@ -176,7 +176,7 @@ ListView {
 
                     return _amount + " IPBC";
                 }
-                color: isOut ? "#808080" : "#86af49"
+                color: isOut ? "#808080" : "#a8b8cb"
             }
 
             Rectangle {

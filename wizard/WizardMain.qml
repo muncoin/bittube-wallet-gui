@@ -318,7 +318,7 @@ ColumnLayout {
 
         width: 50 * scaleRatio; height: 50 * scaleRatio
         radius: 25
-        color: prevArea.containsMouse ? "#a1d257" : "#86af49"
+        color: prevArea.containsMouse ? "#a1d257" : "#a8b8cb"
 
         Image {
             anchors.centerIn: parent
@@ -343,7 +343,7 @@ ColumnLayout {
         visible: currentPage > 1 && currentPage < pages.length - 1
         width: 50 * scaleRatio; height: 50 * scaleRatio
         radius: 25
-        color: enabled ? nextArea.containsMouse ? "#a1d257" : "#86af49" : "#DBDBDB"
+        color: enabled ? nextArea.containsMouse ? "#a1d257" : "#a8b8cb" : "#DBDBDB"
 
 
         Image {
