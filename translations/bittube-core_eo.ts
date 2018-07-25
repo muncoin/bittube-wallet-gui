@@ -544,7 +544,7 @@
     <name>Mining</name>
     <message>
         <location filename="../pages/Mining.qml" line="61"/>
-        <source>BitTube Miner</source>
+        <source>IPBC Miner</source>
         <translation>Memstara minado</translation>
     </message>
     <message>
@@ -554,8 +554,8 @@
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="74"/>
-        <source>Mining with your computer helps strengthen the BitTube network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some TUBE. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation>Minadi per via komputilo helpas plisekurigi la BitTube-reton. Ju pli da homoj minas, des mapli atakebla iĝas la reto, kaj ĉiu malgranda helpo utilas. &lt;br&gt; &lt;br&gt;La minado ankaŭ donas al vi etan ŝancon ricevi rekompencon je TUBEj. Via komputilo kreos haketojn, serĉante bloksolvojn. Se vi trovas blokon, vi ricevos la asociitan rekompencon. Bonŝancon!</translation>
+        <source>Mining with your computer helps strengthen the IPBC network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some TUBE. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation>Minadi per via komputilo helpas plisekurigi la IPBC-reton. Ju pli da homoj minas, des mapli atakebla iĝas la reto, kaj ĉiu malgranda helpo utilas. &lt;br&gt; &lt;br&gt;La minado ankaŭ donas al vi etan ŝancon ricevi rekompencon je TUBEj. Via komputilo kreos haketojn, serĉante bloksolvojn. Se vi trovas blokon, vi ricevos la asociitan rekompencon. Bonŝancon!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="87"/>
@@ -1212,8 +1212,8 @@ La malnova monujkaŝmemoro renomiĝos, vin povas restarigi gîn poste.
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="645"/>
-        <source>Embedded BitTube version: </source>
-        <translation>Enkorpigita BitTube versio: </translation>
+        <source>Embedded IPBC version: </source>
+        <translation>Enkorpigita IPBC versio: </translation>
     </message>
 </context>
 <context>
@@ -1225,8 +1225,8 @@ La malnova monujkaŝmemoro renomiĝos, vin povas restarigi gîn poste.
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="97"/>
-        <source>This page allows you to interact with the shared ring database. This database is meant for use by BitTube wallets as well as wallets from BitTube clones which reuse the BitTube keys.</source>
-        <translation>Ĉi tiu paĝo ebligas vin interagi kun la komuna ringdatumbazo. Tiu datumbazo uziĝos de BitTube-monujoj kaj de monujoj el BitTube-klonoj kiuj reuzas la BitTube-ŝlosilojn.</translation>
+        <source>This page allows you to interact with the shared ring database. This database is meant for use by IPBC wallets as well as wallets from IPBC clones which reuse the IPBC keys.</source>
+        <translation>Ĉi tiu paĝo ebligas vin interagi kun la komuna ringdatumbazo. Tiu datumbazo uziĝos de IPBC-monujoj kaj de monujoj el IPBC-klonoj kiuj reuzas la IPBC-ŝlosilojn.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="110"/>
@@ -1242,12 +1242,12 @@ La malnova monujkaŝmemoro renomiĝos, vin povas restarigi gîn poste.
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="113"/>
-        <source>In order to obscure which inputs in a BitTube transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection BitTube uses.&lt;br&gt;
-To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the BitTube project and is available on the Bit.tube website, and you can import this list here.&lt;br&gt;
-Alternatively, you can scan the blockchain (and the blockchain of key-reusing BitTube clones) yourself using the BitTube-blockchain-blackball tool to create a list of known spent outputs.&lt;br&gt;</source>
-        <translation>Ĉar ni celas kaŝi kiujn enigojn de BitTube transakcio elspeziĝas, neniu tria persono devas kapabli kompreni kiuj enigoj en ringo laŭscie jam elspeziĝis. Tiu kapablo malfortigus la ŝirmefikon de ringsubskriboj. Se iu ekscias ke ĉiuj enigoj, escepte de unu, jam elspeziĝis, tiam la enigo kiu fakte elspeziĝas aperas tuj. Tio nuligus la efekton de ringsubskriboj, unu el la tri plej gravaj privatecŝirmiloj uzitaj en BitTube. &lt;br&gt;
-Ekzistas listo de laŭscie elspezitaj enigoj, kiu permesas malhelpi ilian uzadon en transakcioj. Tiun liston bontenas la BitTube-projekto, kaj disponeblas ĉe la retejo Bit.tube, vi povas importi ĝin ĉi tien.&lt;br&gt;
-Alternative, vi povas mem skani la blokĉenon (kaj la blokĉenon de ŝlosilreuzanta BitTube-klonoj) uzante la Monerblokĉen-malakceptilon por krei liston de laŭscie elspezitaj eligoj. &lt;br&gt;
+        <source>In order to obscure which inputs in a IPBC transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection IPBC uses.&lt;br&gt;
+To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the IPBC project and is available on the Bit.tube website, and you can import this list here.&lt;br&gt;
+Alternatively, you can scan the blockchain (and the blockchain of key-reusing IPBC clones) yourself using the IPBC-blockchain-blackball tool to create a list of known spent outputs.&lt;br&gt;</source>
+        <translation>Ĉar ni celas kaŝi kiujn enigojn de IPBC transakcio elspeziĝas, neniu tria persono devas kapabli kompreni kiuj enigoj en ringo laŭscie jam elspeziĝis. Tiu kapablo malfortigus la ŝirmefikon de ringsubskriboj. Se iu ekscias ke ĉiuj enigoj, escepte de unu, jam elspeziĝis, tiam la enigo kiu fakte elspeziĝas aperas tuj. Tio nuligus la efekton de ringsubskriboj, unu el la tri plej gravaj privatecŝirmiloj uzitaj en IPBC. &lt;br&gt;
+Ekzistas listo de laŭscie elspezitaj enigoj, kiu permesas malhelpi ilian uzadon en transakcioj. Tiun liston bontenas la IPBC-projekto, kaj disponeblas ĉe la retejo Bit.tube, vi povas importi ĝin ĉi tien.&lt;br&gt;
+Alternative, vi povas mem skani la blokĉenon (kaj la blokĉenon de ŝlosilreuzanta IPBC-klonoj) uzante la Monerblokĉen-malakceptilon por krei liston de laŭscie elspezitaj eligoj. &lt;br&gt;
 </translation>
     </message>
     <message>
@@ -1313,20 +1313,20 @@ Alternative, vi povas mem skani la blokĉenon (kaj la blokĉenon de ŝlosilreuza
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="245"/>
-        <source>In order to avoid nullifying the protection afforded by BitTube&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing BitTube clone allows you do spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;
-This will be done automatically by BitTube and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;
-If you are using a key-reusing BitTube clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your BitTube safely.&lt;br&gt;
-If you do not use a key-reusing BitTube clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
-        <translation>Ĉar ni volas eviti la nuliĝon de la ŝirmefiko de la BitTube ringsubskriboj, oni evitu elspezon de unu eligo per diversaj ringoj sur diversaj blokĉenoj. Dum tio normale ne gravas, povas fariĝi problemo kiam ŝlosilreuzanta BitTube-klono ebligas vin elspezi ekzistantajn eligojn. Tiukaze vi devas prizorgi ke la ekzistantaj eligoj uzas la saman ringoj sur ambaŭ blokĉenoj. &lt;br&gt;
-Tion plenumos aŭtomate BitTube kaj ĉiu ŝlosilreuzanta programo kiu ne aktive provas depreni vian privatecon.&lt;br&gt;
-Se vi uzas ankaŭ ŝlosilreuzantan BitTube-klonon, kaj se tiu klono ne inkluzivas tiun ŝirmon, vi tamen povas ŝirmi viajn transakciojn. Elspezu unue per la klono, kaj poste aldonu la ringon al tiu paĝo, kiu ebligos sekuran elspezon de via BitTube.&lt;br&gt;
-Se vi ne uzas ŝlosilreuzantan BitTube-klonon, kiu ne enhavas tiujn sekuraĵojn, vi tiam ne bezonas fari ion ajn, ĉio aŭtomatas.&lt;br&gt;
+        <source>In order to avoid nullifying the protection afforded by IPBC&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing IPBC clone allows you do spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;
+This will be done automatically by IPBC and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;
+If you are using a key-reusing IPBC clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your IPBC safely.&lt;br&gt;
+If you do not use a key-reusing IPBC clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
+        <translation>Ĉar ni volas eviti la nuliĝon de la ŝirmefiko de la IPBC ringsubskriboj, oni evitu elspezon de unu eligo per diversaj ringoj sur diversaj blokĉenoj. Dum tio normale ne gravas, povas fariĝi problemo kiam ŝlosilreuzanta IPBC-klono ebligas vin elspezi ekzistantajn eligojn. Tiukaze vi devas prizorgi ke la ekzistantaj eligoj uzas la saman ringoj sur ambaŭ blokĉenoj. &lt;br&gt;
+Tion plenumos aŭtomate IPBC kaj ĉiu ŝlosilreuzanta programo kiu ne aktive provas depreni vian privatecon.&lt;br&gt;
+Se vi uzas ankaŭ ŝlosilreuzantan IPBC-klonon, kaj se tiu klono ne inkluzivas tiun ŝirmon, vi tamen povas ŝirmi viajn transakciojn. Elspezu unue per la klono, kaj poste aldonu la ringon al tiu paĝo, kiu ebligos sekuran elspezon de via IPBC.&lt;br&gt;
+Se vi ne uzas ŝlosilreuzantan IPBC-klonon, kiu ne enhavas tiujn sekuraĵojn, vi tiam ne bezonas fari ion ajn, ĉio aŭtomatas.&lt;br&gt;
 </translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="267"/>
-        <source>This records rings used by outputs spent on BitTube on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
-        <translation>Tio registras la ringojn kiuj uziĝis por elspezi BitTube sur ŝlosilreuzanta ĉeno, tiel ke la sama ringo uziĝu denove, por malhelpi privatecproblemojn.</translation>
+        <source>This records rings used by outputs spent on IPBC on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
+        <translation>Tio registras la ringojn kiuj uziĝis por elspezi IPBC sur ŝlosilreuzanta ĉeno, tiel ke la sama ringo uziĝu denove, por malhelpi privatecproblemojn.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="278"/>
@@ -1996,13 +1996,13 @@ Kaze de Elspezpruvo, vi ne bezonas precizi la ricevantan adreson.</translation>
     <name>WizardConfigure</name>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="79"/>
-        <source>We’re almost there - let’s just configure some BitTube preferences</source>
-        <translation>Preskaŭ preta - ni agordu kelkajn preferojn por BitTube Core</translation>
+        <source>We’re almost there - let’s just configure some IPBC preferences</source>
+        <translation>Preskaŭ preta - ni agordu kelkajn preferojn por IPBC Core</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="97"/>
-        <source>Kickstart the BitTube blockchain?</source>
-        <translation>Ĉu komenci la BitTube blokĉenon?</translation>
+        <source>Kickstart the IPBC blockchain?</source>
+        <translation>Ĉu komenci la IPBC blokĉenon?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="113"/>
@@ -2016,8 +2016,8 @@ Kaze de Elspezpruvo, vi ne bezonas precizi la ricevantan adreson.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="140"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular BitTube instance. However, storing the full blockchain is beneficial to the security of the BitTube network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation>La diskokonservado-reĝimo uzas multe malpli da diskospaco, sed saman kvanton de retkapacito kiel normala BitTube nodo. Tamen, konservi la tutan blokĉenon helpas plisekurigi la Monerreton.Se vi uzas aparaton kun malmulte da diskospaco, tiu ĉi opcio taŭgas por vi.</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular IPBC instance. However, storing the full blockchain is beneficial to the security of the IPBC network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation>La diskokonservado-reĝimo uzas multe malpli da diskospaco, sed saman kvanton de retkapacito kiel normala IPBC nodo. Tamen, konservi la tutan blokĉenon helpas plisekurigi la Monerreton.Se vi uzas aparaton kun malmulte da diskospaco, tiu ĉi opcio taŭgas por vi.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="153"/>
@@ -2026,8 +2026,8 @@ Kaze de Elspezpruvo, vi ne bezonas precizi la ricevantan adreson.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="169"/>
-        <source>Mining secures the BitTube network, and also pays a small reward for the work done. This option will let BitTube mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>La minado sekurigas la BitTube-reton kaj vi ricevas rekompenceton por la laboro. Tiu ĉi opcio ŝaltos la minadon kiam via komputilo uzas la kurentprovizon kaj estas senokupa. La minado haltos kiam vi denove uzos la komputilon.</translation>
+        <source>Mining secures the IPBC network, and also pays a small reward for the work done. This option will let IPBC mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>La minado sekurigas la IPBC-reton kaj vi ricevas rekompenceton por la laboro. Tiu ĉi opcio ŝaltos la minadon kiam via komputilo uzas la kurentprovizon kaj estas senokupa. La minado haltos kiam vi denove uzos la komputilon.</translation>
     </message>
 </context>
 <context>
@@ -2050,8 +2050,8 @@ Kaze de Elspezpruvo, vi ne bezonas precizi la ricevantan adreson.</translation>
     <name>WizardDaemonSettings</name>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="114"/>
-        <source>To be able to communicate with the BitTube network your wallet needs to be connected to a BitTube node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
-        <translation>Por ebligi komunikon kun la BitTube-reto, via monujo bezonas konektiĝi kun BitTube nodo. Oni rekomendas bonteni vian propran nodon por plej bona privateco.
+        <source>To be able to communicate with the IPBC network your wallet needs to be connected to a IPBC node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
+        <translation>Por ebligi komunikon kun la IPBC-reto, via monujo bezonas konektiĝi kun IPBC nodo. Oni rekomendas bonteni vian propran nodon por plej bona privateco.
 &lt;br&gt;&lt;br&gt; Se vi ne povas starigi vian propran nodon, ekzistas la opcio konektiĝi al fora nodo.</translation>
     </message>
     <message>
@@ -2084,8 +2084,8 @@ Kaze de Elspezpruvo, vi ne bezonas precizi la ricevantan adreson.</translation>
     <name>WizardDonation</name>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="93"/>
-        <source>BitTube development is solely supported by donations</source>
-        <translation>La programado de BitTube estas nur subtenata per donacoj.</translation>
+        <source>IPBC development is solely supported by donations</source>
+        <translation>La programado de IPBC estas nur subtenata per donacoj.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="113"/>
@@ -2099,8 +2099,8 @@ Kaze de Elspezpruvo, vi ne bezonas precizi la ricevantan adreson.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="162"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support BitTube development. For instance, a 50% autodonation take a transaction fee of 0.005 TUBE and add a 0.0025 TUBE to support BitTube development.</source>
-        <translation>Por ĉiu transakcio, oni devas pagi malgrandan transakcikoston. Tiu ĉi opcio ebligas aldonan sumon (procento de la baza kosto) al via transakcio por subteni la programadon de BitTube. Ekzemple, 50% aŭtomata donaco aldonas 0.0025 TUBE al transakcikosto de 0.005 TUBE.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support IPBC development. For instance, a 50% autodonation take a transaction fee of 0.005 TUBE and add a 0.0025 TUBE to support IPBC development.</source>
+        <translation>Por ĉiu transakcio, oni devas pagi malgrandan transakcikoston. Tiu ĉi opcio ebligas aldonan sumon (procento de la baza kosto) al via transakcio por subteni la programadon de IPBC. Ekzemple, 50% aŭtomata donaco aldonas 0.0025 TUBE al transakcikosto de 0.005 TUBE.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="174"/>
@@ -2109,8 +2109,8 @@ Kaze de Elspezpruvo, vi ne bezonas precizi la ricevantan adreson.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="190"/>
-        <source>Mining secures the BitTube network, and also pays a small reward for the work done. This option will let BitTube mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>La minado sekurigas la BitTube kaj vi ricevas rekompenceton por la laboro. Tiu ĉi opcio ŝaltos minadon kiam via komputilo estos ŝaltita sed senokupa. La minado haltos kiam vi denove uzos la komputilon.</translation>
+        <source>Mining secures the IPBC network, and also pays a small reward for the work done. This option will let IPBC mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>La minado sekurigas la IPBC kaj vi ricevas rekompenceton por la laboro. Tiu ĉi opcio ŝaltos minadon kiam via komputilo estos ŝaltita sed senokupa. La minado haltos kiam vi denove uzos la komputilon.</translation>
     </message>
 </context>
 <context>
@@ -2202,8 +2202,8 @@ Kaze de Elspezpruvo, vi ne bezonas precizi la ricevantan adreson.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="367"/>
-        <source>USE BITTUBE</source>
-        <translation>UZU BITTUBE</translation>
+        <source>USE IPBC</source>
+        <translation>UZU IPBC</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="380"/>
@@ -2306,8 +2306,8 @@ Kaze de Elspezpruvo, vi ne bezonas precizi la ricevantan adreson.</translation>
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="75"/>
-        <source>Welcome to BitTube!</source>
-        <translation>Bonvenon al BitTube!</translation>
+        <source>Welcome to IPBC!</source>
+        <translation>Bonvenon al IPBC!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="86"/>
@@ -2381,8 +2381,8 @@ Kaze de Elspezpruvo, vi ne bezonas precizi la ricevantan adreson.</translation>
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="73"/>
-        <source>Welcome to BitTube!</source>
-        <translation>Bonvenon al BitTube!</translation>
+        <source>Welcome to IPBC!</source>
+        <translation>Bonvenon al IPBC!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="83"/>
@@ -2611,8 +2611,8 @@ Kaze de Elspezpruvo, vi ne bezonas precizi la ricevantan adreson.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1783"/>
-        <source>New version of bittube-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>Nova versio de bittube-wallet-gui disponeblas:  %1&lt;br&gt;%2</translation>
+        <source>New version of IPBC-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>Nova versio de IPBC-wallet-gui disponeblas:  %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <location filename="../main.qml" line="676"/>
@@ -2717,8 +2717,8 @@ Kaze de Elspezpruvo, vi ne bezonas precizi la ricevantan adreson.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1285"/>
-        <source>BitTube</source>
-        <translation>BitTube</translation>
+        <source>IPBC</source>
+        <translation>IPBC</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1441"/>

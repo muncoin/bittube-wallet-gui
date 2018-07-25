@@ -544,8 +544,8 @@
     <name>Mining</name>
     <message>
         <location filename="../pages/Mining.qml" line="61"/>
-        <source>BitTube Miner</source>
-        <translation>BitTube Miner</translation>
+        <source>IPBC Miner</source>
+        <translation>IPBC Miner</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="68"/>
@@ -2193,8 +2193,8 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="367"/>
-        <source>USE BITTUBE</source>
-        <translation>BRUG BITTUBE</translation>
+        <source>USE IPBC</source>
+        <translation>BRUG IPBC</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="380"/>
@@ -2656,8 +2656,8 @@ Spending address index: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1783"/>
-        <source>New version of bittube-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>Ny version af BitTube-tegnebog-gui er tilgængelig: %1&lt;br&gt;%2 </translation>
+        <source>New version of IPBC-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>Ny version af IPBC-tegnebog-gui er tilgængelig: %1&lt;br&gt;%2 </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1815"/>
@@ -2728,8 +2728,8 @@ Spending address index: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1285"/>
-        <source>BitTube</source>
-        <translation>BitTube</translation>
+        <source>IPBC</source>
+        <translation>IPBC</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1441"/>

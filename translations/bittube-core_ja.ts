@@ -544,7 +544,7 @@
     <name>Mining</name>
     <message>
         <location filename="../pages/Mining.qml" line="61"/>
-        <source>BitTube Miner</source>
+        <source>IPBC Miner</source>
         <translation>ソロマイニング</translation>
     </message>
     <message>
@@ -554,8 +554,8 @@
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="74"/>
-        <source>Mining with your computer helps strengthen the BitTube network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some TUBE. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation>あなたのコンピュータでマイニングを行うことで、BitTubeのネットワークをより強固にすることができます。マイニングをする人が増えるほど、ネットワークへの攻撃が難しくなります。一人一人の協力が大切です。&lt;br&gt; &lt;br&gt;マイニングをすると、低確率ですがTUBEを獲得できる可能性があります。あなたのコンピュータは、ある計算問題の解となるブロックとそのハッシュ値を計算します。正解のブロックが見つかると、あなたはそれに伴う報酬を得ます。グッドラック!</translation>
+        <source>Mining with your computer helps strengthen the IPBC network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some TUBE. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation>あなたのコンピュータでマイニングを行うことで、IPBCのネットワークをより強固にすることができます。マイニングをする人が増えるほど、ネットワークへの攻撃が難しくなります。一人一人の協力が大切です。&lt;br&gt; &lt;br&gt;マイニングをすると、低確率ですがTUBEを獲得できる可能性があります。あなたのコンピュータは、ある計算問題の解となるブロックとそのハッシュ値を計算します。正解のブロックが見つかると、あなたはそれに伴う報酬を得ます。グッドラック!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="87"/>
@@ -1167,8 +1167,8 @@
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="645"/>
-        <source>Embedded BitTube version: </source>
-        <translation>埋め込まれたBitTubeのバージョン: </translation>
+        <source>Embedded IPBC version: </source>
+        <translation>埋め込まれたIPBCのバージョン: </translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="671"/>
@@ -1225,8 +1225,8 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="97"/>
-        <source>This page allows you to interact with the shared ring database. This database is meant for use by BitTube wallets as well as wallets from BitTube clones which reuse the BitTube keys.</source>
-        <translation>このページでは共有リングデータベースを操作できます。このデータベースはBitTubeウォレットおよびBitTubeのキーを再利用するBitTubeクローンのウォレットで利用するためのものです。</translation>
+        <source>This page allows you to interact with the shared ring database. This database is meant for use by IPBC wallets as well as wallets from IPBC clones which reuse the IPBC keys.</source>
+        <translation>このページでは共有リングデータベースを操作できます。このデータベースはIPBCウォレットおよびIPBCのキーを再利用するIPBCクローンのウォレットで利用するためのものです。</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="110"/>
@@ -1242,8 +1242,8 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="113"/>
-        <source>In order to obscure which inputs in a BitTube transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection BitTube uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the BitTube project and is available on the Bit.tube website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing BitTube clones) yourself using the BitTube-blockchain-blackball tool to create a list of known spent outputs.&lt;br&gt;</source>
-        <translation>第三者がリング内に既知の使用済みインプットを見つけられないことは、BitTubeトランザクションのどのインプットが使用されたのかを隠すために必要です。もし見つけられるとリング署名による保護は弱まります。もし1つのインプットを除いてすべてが使用済みだと知られている場合、実際に使用されたインプットは明らかとなり、BitTubeが使っている3つの主要なプライバシー保護レイヤーのうちの1つであるリング署名の効果が失われてしまいます。&lt;br&gt;トランザクションでそれらのインプットを避けるため、既知の使用済みインプットのリストを用いてそれらを新規のトランザクションで使用しないようにできます。このようなリストはBitTubeプロジェクトによって保守されBit.tubeのウェブサイトで公開されており、ここではこのリストをインポートすることができます。&lt;br&gt;あるいはBitTube-blockchain-blackballというツールを使い、BitTubeのブロックチェーン(およびキーを再利用するBitTubeクローンのブロックチェン)を自分でスキャンして既知の使用済みアウトプットのリストを生成できます。&lt;br&gt;</translation>
+        <source>In order to obscure which inputs in a IPBC transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection IPBC uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the IPBC project and is available on the Bit.tube website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing IPBC clones) yourself using the IPBC-blockchain-blackball tool to create a list of known spent outputs.&lt;br&gt;</source>
+        <translation>第三者がリング内に既知の使用済みインプットを見つけられないことは、IPBCトランザクションのどのインプットが使用されたのかを隠すために必要です。もし見つけられるとリング署名による保護は弱まります。もし1つのインプットを除いてすべてが使用済みだと知られている場合、実際に使用されたインプットは明らかとなり、IPBCが使っている3つの主要なプライバシー保護レイヤーのうちの1つであるリング署名の効果が失われてしまいます。&lt;br&gt;トランザクションでそれらのインプットを避けるため、既知の使用済みインプットのリストを用いてそれらを新規のトランザクションで使用しないようにできます。このようなリストはIPBCプロジェクトによって保守されBit.tubeのウェブサイトで公開されており、ここではこのリストをインポートすることができます。&lt;br&gt;あるいはIPBC-blockchain-blackballというツールを使い、IPBCのブロックチェーン(およびキーを再利用するIPBCクローンのブロックチェン)を自分でスキャンして既知の使用済みアウトプットのリストを生成できます。&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="134"/>
@@ -1308,13 +1308,13 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="245"/>
-        <source>In order to avoid nullifying the protection afforded by BitTube&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing BitTube clone allows you do spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by BitTube and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing BitTube clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your BitTube safely.&lt;br&gt;If you do not use a key-reusing BitTube clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
-        <translation>BitTubeのリング署名による保護を無効化しないため、あるアウトプットを使う際に異なるブロックチェーンで異なるリングを使うことは避けなければなりません。これは通常問題になりませんが、キーを再利用するBitTubeクローンが既存のアウトプットの使用を許している場合問題になります。この場合、既存のアウトプットは両方のチェーンで同じリングを使わなくてはなりません。&lt;br&gt;これはキーを再利用するソフトウェアが積極的にプライバシーを侵害しようとしない限り自動的に行われます。&lt;br&gt;もしキーを再利用するBitTubeクローンを使っていてそのクローンがこの保護を含んでいない場合も、まずクローンの方でアウトプットを使用しその後リングをこのページに手動で追加することで、トランザクションは保護されBitTubeを安全に使用できるようになります。&lt;br&gt;これらの機能を提供しないキーを再利用するBitTubeクローンを使用していない場合、すべては自動化されているので何もする必要はありません。&lt;br&gt;</translation>
+        <source>In order to avoid nullifying the protection afforded by IPBC&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing IPBC clone allows you do spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by IPBC and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing IPBC clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your IPBC safely.&lt;br&gt;If you do not use a key-reusing IPBC clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
+        <translation>IPBCのリング署名による保護を無効化しないため、あるアウトプットを使う際に異なるブロックチェーンで異なるリングを使うことは避けなければなりません。これは通常問題になりませんが、キーを再利用するIPBCクローンが既存のアウトプットの使用を許している場合問題になります。この場合、既存のアウトプットは両方のチェーンで同じリングを使わなくてはなりません。&lt;br&gt;これはキーを再利用するソフトウェアが積極的にプライバシーを侵害しようとしない限り自動的に行われます。&lt;br&gt;もしキーを再利用するIPBCクローンを使っていてそのクローンがこの保護を含んでいない場合も、まずクローンの方でアウトプットを使用しその後リングをこのページに手動で追加することで、トランザクションは保護されIPBCを安全に使用できるようになります。&lt;br&gt;これらの機能を提供しないキーを再利用するIPBCクローンを使用していない場合、すべては自動化されているので何もする必要はありません。&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="267"/>
-        <source>This records rings used by outputs spent on BitTube on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
-        <translation>キーを再利用するチェーンでアウトプットに使用されたリングを記録し、プライバシーの問題を避けるためBitTubeでも同じリングを使うようにします。</translation>
+        <source>This records rings used by outputs spent on IPBC on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
+        <translation>キーを再利用するチェーンでアウトプットに使用されたリングを記録し、プライバシーの問題を避けるためIPBCでも同じリングを使うようにします。</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="278"/>
@@ -1998,13 +1998,13 @@ Spend Proofの場合、宛先アドレスを指定する必要はありません
     <name>WizardConfigure</name>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="79"/>
-        <source>We’re almost there - let’s just configure some BitTube preferences</source>
+        <source>We’re almost there - let’s just configure some IPBC preferences</source>
         <translation>あと少しで完了です - いくつかの項目を設定してください</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="97"/>
-        <source>Kickstart the BitTube blockchain?</source>
-        <translation>BitTubeのブロックチェーンを初期化しますか？</translation>
+        <source>Kickstart the IPBC blockchain?</source>
+        <translation>IPBCのブロックチェーンを初期化しますか？</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="113"/>
@@ -2018,8 +2018,8 @@ Spend Proofの場合、宛先アドレスを指定する必要はありません
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="140"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular BitTube instance. However, storing the full blockchain is beneficial to the security of the BitTube network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation>ディスク容量節約モードを有効にすると、使用するディスク容量はずっと小さくなりますが、通信帯域の使用量は通常モードと変わりません。ただし、BitTubeのネットワークの安全性を高める意味で、完全なブロックチェーンの全体を保存することが推奨されています。もしあなたのコンピュータのディスク容量が小さい場合は、このオプションを使用してください。</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular IPBC instance. However, storing the full blockchain is beneficial to the security of the IPBC network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation>ディスク容量節約モードを有効にすると、使用するディスク容量はずっと小さくなりますが、通信帯域の使用量は通常モードと変わりません。ただし、IPBCのネットワークの安全性を高める意味で、完全なブロックチェーンの全体を保存することが推奨されています。もしあなたのコンピュータのディスク容量が小さい場合は、このオプションを使用してください。</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="153"/>
@@ -2028,8 +2028,8 @@ Spend Proofの場合、宛先アドレスを指定する必要はありません
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="169"/>
-        <source>Mining secures the BitTube network, and also pays a small reward for the work done. This option will let BitTube mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>BitTubeの採掘をすることでネットワークの安全性が高まり、また提供した計算量の対価として低い確率ですが報酬が得られます。このオプションは、あなたのコンピュータが電源に接続されていてなおかつアイドル状態の場合に、自動的にBitTubeの採掘を行うことを許可します。あなたが作業を再開すると、採掘は停止されます。</translation>
+        <source>Mining secures the IPBC network, and also pays a small reward for the work done. This option will let IPBC mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>IPBCの採掘をすることでネットワークの安全性が高まり、また提供した計算量の対価として低い確率ですが報酬が得られます。このオプションは、あなたのコンピュータが電源に接続されていてなおかつアイドル状態の場合に、自動的にIPBCの採掘を行うことを許可します。あなたが作業を再開すると、採掘は停止されます。</translation>
     </message>
 </context>
 <context>
@@ -2052,8 +2052,8 @@ Spend Proofの場合、宛先アドレスを指定する必要はありません
     <name>WizardDaemonSettings</name>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="114"/>
-        <source>To be able to communicate with the BitTube network your wallet needs to be connected to a BitTube node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
-        <translation>BitTubeネットワークと通信するためにウォレットはBitTubeノードに接続されている必要があります。プライバシーを最大限に保護するため自分自身のノードを走らせることが推奨されています。
+        <source>To be able to communicate with the IPBC network your wallet needs to be connected to a IPBC node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
+        <translation>IPBCネットワークと通信するためにウォレットはIPBCノードに接続されている必要があります。プライバシーを最大限に保護するため自分自身のノードを走らせることが推奨されています。
 &lt;br&gt;&lt;br&gt;                         自分自身のノードを走らせることができない場合はリモートノードに接続することも可能です。</translation>
     </message>
     <message>
@@ -2086,8 +2086,8 @@ Spend Proofの場合、宛先アドレスを指定する必要はありません
     <name>WizardDonation</name>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="93"/>
-        <source>BitTube development is solely supported by donations</source>
-        <translation>BitTubeの開発は寄付のみによって支えられています</translation>
+        <source>IPBC development is solely supported by donations</source>
+        <translation>IPBCの開発は寄付のみによって支えられています</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="113"/>
@@ -2101,8 +2101,8 @@ Spend Proofの場合、宛先アドレスを指定する必要はありません
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="162"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support BitTube development. For instance, a 50% autodonation take a transaction fee of 0.005 TUBE and add a 0.0025 TUBE to support BitTube development.</source>
-        <translation>取引には少額の手数料がかかります。このオプションはその手数料に加えて、手数料の何パーセントかをBitTubeの開発チームへの寄付として支払うことを許可します。例えば自動寄付の割合が50%で、取引の手数料が0.005 TUBEであった場合、0.0025 TUBEが開発チームへの寄付として取引に上乗せされます。</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support IPBC development. For instance, a 50% autodonation take a transaction fee of 0.005 TUBE and add a 0.0025 TUBE to support IPBC development.</source>
+        <translation>取引には少額の手数料がかかります。このオプションはその手数料に加えて、手数料の何パーセントかをIPBCの開発チームへの寄付として支払うことを許可します。例えば自動寄付の割合が50%で、取引の手数料が0.005 TUBEであった場合、0.0025 TUBEが開発チームへの寄付として取引に上乗せされます。</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="174"/>
@@ -2111,8 +2111,8 @@ Spend Proofの場合、宛先アドレスを指定する必要はありません
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="190"/>
-        <source>Mining secures the BitTube network, and also pays a small reward for the work done. This option will let BitTube mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>BitTubeの採掘をすることでネットワークの安全性が高まり、また提供した計算量の対価として低い確率ですが報酬が得られます。このオプションは、あなたのコンピュータが電源に接続されていてなおかつアイドル状態の場合に、自動的にBitTubeの採掘を行うことを許可します。あなたが作業を再開すると、採掘は停止されます。</translation>
+        <source>Mining secures the IPBC network, and also pays a small reward for the work done. This option will let IPBC mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>IPBCの採掘をすることでネットワークの安全性が高まり、また提供した計算量の対価として低い確率ですが報酬が得られます。このオプションは、あなたのコンピュータが電源に接続されていてなおかつアイドル状態の場合に、自動的にIPBCの採掘を行うことを許可します。あなたが作業を再開すると、採掘は停止されます。</translation>
     </message>
 </context>
 <context>
@@ -2204,8 +2204,8 @@ Spend Proofの場合、宛先アドレスを指定する必要はありません
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="367"/>
-        <source>USE BITTUBE</source>
-        <translation>BitTubeを使う</translation>
+        <source>USE IPBC</source>
+        <translation>IPBCを使う</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="380"/>
@@ -2309,8 +2309,8 @@ Spend Proofの場合、宛先アドレスを指定する必要はありません
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="75"/>
-        <source>Welcome to BitTube!</source>
-        <translation>BitTubeへようこそ!</translation>
+        <source>Welcome to IPBC!</source>
+        <translation>IPBCへようこそ!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="86"/>
@@ -2384,8 +2384,8 @@ Spend Proofの場合、宛先アドレスを指定する必要はありません
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="73"/>
-        <source>Welcome to BitTube!</source>
-        <translation>BitTubeへようこそ!</translation>
+        <source>Welcome to IPBC!</source>
+        <translation>IPBCへようこそ!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="83"/>
@@ -2620,8 +2620,8 @@ Amount: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1783"/>
-        <source>New version of bittube-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>新しいバージョンのbittube-wallet-guiを入手できます: %1&lt;br&gt;%2</translation>
+        <source>New version of IPBC-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>新しいバージョンのIPBC-wallet-guiを入手できます: %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <location filename="../main.qml" line="622"/>
@@ -2741,8 +2741,8 @@ Fee: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1285"/>
-        <source>BitTube</source>
-        <translation>BitTube</translation>
+        <source>IPBC</source>
+        <translation>IPBC</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1815"/>

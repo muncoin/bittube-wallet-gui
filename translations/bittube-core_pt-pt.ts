@@ -544,7 +544,7 @@
     <name>Mining</name>
     <message>
         <location filename="../pages/Mining.qml" line="61"/>
-        <source>BitTube Miner</source>
+        <source>IPBC Miner</source>
         <translation>Minerar sozinho</translation>
     </message>
     <message>
@@ -554,8 +554,8 @@
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="74"/>
-        <source>Mining with your computer helps strengthen the BitTube network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some TUBE. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation>Minerar com o seu computador ajuda a fortalecer a rede BitTube. Quanto mais pessoas minerarem, mais difícil será atacar a rede e por mais pequena que seja a sua contribuição está a ajudar. &lt;br&gt; &lt;br&gt;Minerar também dá uma pequena possibilidade de ganhar TUBE. O seu computador irá criar hashes procurando soluções para validade blocos. Caso consiga encontrar o hash de validação de um bloco, você ganha a recompensa associada. Boa sorte!</translation>
+        <source>Mining with your computer helps strengthen the IPBC network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some TUBE. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation>Minerar com o seu computador ajuda a fortalecer a rede IPBC. Quanto mais pessoas minerarem, mais difícil será atacar a rede e por mais pequena que seja a sua contribuição está a ajudar. &lt;br&gt; &lt;br&gt;Minerar também dá uma pequena possibilidade de ganhar TUBE. O seu computador irá criar hashes procurando soluções para validade blocos. Caso consiga encontrar o hash de validação de um bloco, você ganha a recompensa associada. Boa sorte!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="87"/>
@@ -1191,8 +1191,8 @@ O ficheiro cache antigo da carteira será renomeado e poderá ser reposto depois
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="645"/>
-        <source>Embedded BitTube version: </source>
-        <translation>Versão integrada do BitTube: </translation>
+        <source>Embedded IPBC version: </source>
+        <translation>Versão integrada do IPBC: </translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="160"/>
@@ -1225,8 +1225,8 @@ O ficheiro cache antigo da carteira será renomeado e poderá ser reposto depois
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="97"/>
-        <source>This page allows you to interact with the shared ring database. This database is meant for use by BitTube wallets as well as wallets from BitTube clones which reuse the BitTube keys.</source>
-        <translation>Esta secção permite-lhe interagir com a base de dados de rings. Esta base de dados é intencionada para a utilização de carteiras de BitTube assim como carteiras de clones do BitTube que usam as mesmas chaves.</translation>
+        <source>This page allows you to interact with the shared ring database. This database is meant for use by IPBC wallets as well as wallets from IPBC clones which reuse the IPBC keys.</source>
+        <translation>Esta secção permite-lhe interagir com a base de dados de rings. Esta base de dados é intencionada para a utilização de carteiras de IPBC assim como carteiras de clones do IPBC que usam as mesmas chaves.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="110"/>
@@ -1242,8 +1242,8 @@ O ficheiro cache antigo da carteira será renomeado e poderá ser reposto depois
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="113"/>
-        <source>In order to obscure which inputs in a BitTube transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection BitTube uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the BitTube project and is available on the Bit.tube website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing BitTube clones) yourself using the BitTube-blockchain-blackball tool to create a list of known spent outputs.&lt;br&gt;</source>
-        <translation>De forma a esconder qual é a verdadeira transacção que está a ser gasta, BitTube utiliza varias transacções selecionadas automaticamente na mesma transacção, uma terceira pessoa não deve conseguir distinguir qual é a transacção verdadeira das falsas. Caso o consiga fazer irá emfraqiecer a a protecção dada pelas ring signatures. Se todas as transacções excepto uma forem conhecidas por ja terem sido gastas, então torna-se evidente qual é a transacção que está a ser gasta e a utilização de ring signatures fica sem efeito, sendo as ring signatures uma das 3 camadas que permite a protecção de privacidade em BitTube.&lt;br&gt;Para ajudar a evitar essas transacções, é-lhe fornecida uma lista com transacções já conhecidas como gastas e assim pode evitar usa-las numa nova transacção. Esta lista é mantida pelo BitTube Project e está disponivel no site oficinal Bit.tube, e pode importar essa lista para aqui.&lt;br&gt;Em alternatica, pode utilizar a ferramenta BitTube-blockchain-blackball e criar essa mesma lista de transacções conhecidas como gastas.</translation>
+        <source>In order to obscure which inputs in a IPBC transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection IPBC uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the IPBC project and is available on the Bit.tube website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing IPBC clones) yourself using the IPBC-blockchain-blackball tool to create a list of known spent outputs.&lt;br&gt;</source>
+        <translation>De forma a esconder qual é a verdadeira transacção que está a ser gasta, IPBC utiliza varias transacções selecionadas automaticamente na mesma transacção, uma terceira pessoa não deve conseguir distinguir qual é a transacção verdadeira das falsas. Caso o consiga fazer irá emfraqiecer a a protecção dada pelas ring signatures. Se todas as transacções excepto uma forem conhecidas por ja terem sido gastas, então torna-se evidente qual é a transacção que está a ser gasta e a utilização de ring signatures fica sem efeito, sendo as ring signatures uma das 3 camadas que permite a protecção de privacidade em IPBC.&lt;br&gt;Para ajudar a evitar essas transacções, é-lhe fornecida uma lista com transacções já conhecidas como gastas e assim pode evitar usa-las numa nova transacção. Esta lista é mantida pelo IPBC Project e está disponivel no site oficinal Bit.tube, e pode importar essa lista para aqui.&lt;br&gt;Em alternatica, pode utilizar a ferramenta IPBC-blockchain-blackball e criar essa mesma lista de transacções conhecidas como gastas.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="134"/>
@@ -1308,13 +1308,13 @@ O ficheiro cache antigo da carteira será renomeado e poderá ser reposto depois
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="245"/>
-        <source>In order to avoid nullifying the protection afforded by BitTube&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing BitTube clone allows you do spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by BitTube and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing BitTube clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your BitTube safely.&lt;br&gt;If you do not use a key-reusing BitTube clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
-        <translation>De forma a evitar a perca de protecção dada pelas ring signtarues, uma transacção não deve ser utilizada com assinaturas diferentes em diferentes blockchains. Por norma isto não é uma preocupação, mas pode-se tornar numa quando um clone de BitTube reutiliza as mesmas chaves e lhe permite gastar as mesmas transacções. Neste caso, necessita de se certificar que as mesmas transacções utilizam as mesmas ring signatures em ambos os blockchains&lt;br&gt;Isto irá ser feito automaticamente em BitTube e em qualquer blockchain que não esteja a tentar debilitar a sua privacidade.&lt;br&gt;Caso esteja a usar um destes clones e esse clone não providencie esta funcionalidade, poderá proteger a sua transacção, fazendo a mesma primeiro no clone, e depois manualmente adicionar as assinaturas através desta secção, o que lhe permitirá utilizar o seu BitTube em segurança.&lt;br&gt;Se não usar nenhum clone de BitTube que utilize as mesmas chaves então está safo sem necessitar destas ferramentas de segurança, tudo já é feito automaticamente.&lt;br&gt;</translation>
+        <source>In order to avoid nullifying the protection afforded by IPBC&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing IPBC clone allows you do spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by IPBC and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing IPBC clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your IPBC safely.&lt;br&gt;If you do not use a key-reusing IPBC clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
+        <translation>De forma a evitar a perca de protecção dada pelas ring signtarues, uma transacção não deve ser utilizada com assinaturas diferentes em diferentes blockchains. Por norma isto não é uma preocupação, mas pode-se tornar numa quando um clone de IPBC reutiliza as mesmas chaves e lhe permite gastar as mesmas transacções. Neste caso, necessita de se certificar que as mesmas transacções utilizam as mesmas ring signatures em ambos os blockchains&lt;br&gt;Isto irá ser feito automaticamente em IPBC e em qualquer blockchain que não esteja a tentar debilitar a sua privacidade.&lt;br&gt;Caso esteja a usar um destes clones e esse clone não providencie esta funcionalidade, poderá proteger a sua transacção, fazendo a mesma primeiro no clone, e depois manualmente adicionar as assinaturas através desta secção, o que lhe permitirá utilizar o seu IPBC em segurança.&lt;br&gt;Se não usar nenhum clone de IPBC que utilize as mesmas chaves então está safo sem necessitar destas ferramentas de segurança, tudo já é feito automaticamente.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="267"/>
-        <source>This records rings used by outputs spent on BitTube on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
-        <translation>Estes registos contêm assinaturas usadas em transacções de num clone de BitTube com as mesmas chaves, é necessario utilizar as mesmas assinaturas para evitar perca de privacidade.</translation>
+        <source>This records rings used by outputs spent on IPBC on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
+        <translation>Estes registos contêm assinaturas usadas em transacções de num clone de IPBC com as mesmas chaves, é necessario utilizar as mesmas assinaturas para evitar perca de privacidade.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="278"/>
@@ -1997,13 +1997,13 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <name>WizardConfigure</name>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="79"/>
-        <source>We’re almost there - let’s just configure some BitTube preferences</source>
+        <source>We’re almost there - let’s just configure some IPBC preferences</source>
         <translation>Quase terminado - falta apenas configurar algumas opções</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="97"/>
-        <source>Kickstart the BitTube blockchain?</source>
-        <translation>Iniciar a blockchain do BitTube?</translation>
+        <source>Kickstart the IPBC blockchain?</source>
+        <translation>Iniciar a blockchain do IPBC?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="113"/>
@@ -2017,8 +2017,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="140"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular BitTube instance. However, storing the full blockchain is beneficial to the security of the BitTube network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation>O modo de conservação de espaço no disco usa menos espaço porém a mesma quantia de dados na internet. Armazenar a blockchain completa no seu disco ajuda a proteger a rede BitTube. Caso esteja a usar um dispositivo com pouco espaço de disco livre, ative esta opção.</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular IPBC instance. However, storing the full blockchain is beneficial to the security of the IPBC network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation>O modo de conservação de espaço no disco usa menos espaço porém a mesma quantia de dados na internet. Armazenar a blockchain completa no seu disco ajuda a proteger a rede IPBC. Caso esteja a usar um dispositivo com pouco espaço de disco livre, ative esta opção.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="153"/>
@@ -2027,8 +2027,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="169"/>
-        <source>Mining secures the BitTube network, and also pays a small reward for the work done. This option will let BitTube mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Minerar ajuda a rede BitTube a ficar mais segura e poderá pagar um prémio pelo trabalho realizado. Esta opção permite que o seu computador minere quando estiver sem ser utilizado e ligado à corrente elétrica. Para de minerar assim que comece a utilizar o computador.</translation>
+        <source>Mining secures the IPBC network, and also pays a small reward for the work done. This option will let IPBC mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Minerar ajuda a rede IPBC a ficar mais segura e poderá pagar um prémio pelo trabalho realizado. Esta opção permite que o seu computador minere quando estiver sem ser utilizado e ligado à corrente elétrica. Para de minerar assim que comece a utilizar o computador.</translation>
     </message>
 </context>
 <context>
@@ -2051,8 +2051,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <name>WizardDaemonSettings</name>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="114"/>
-        <source>To be able to communicate with the BitTube network your wallet needs to be connected to a BitTube node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
-        <translation>Para que possa comunicar com a rede BitTube, a sua carteira necessita estar ligada a um node de BitTube. É recomendável que corra o seu próprio node local, contudo se não tiver opção de correr o seu próprio node pode também ligar-se a um node remoto.</translation>
+        <source>To be able to communicate with the IPBC network your wallet needs to be connected to a IPBC node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
+        <translation>Para que possa comunicar com a rede IPBC, a sua carteira necessita estar ligada a um node de IPBC. É recomendável que corra o seu próprio node local, contudo se não tiver opção de correr o seu próprio node pode também ligar-se a um node remoto.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="126"/>
@@ -2084,8 +2084,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <name>WizardDonation</name>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="93"/>
-        <source>BitTube development is solely supported by donations</source>
-        <translation>O desenvolvimento do BitTube é unicamente suportado através de doações</translation>
+        <source>IPBC development is solely supported by donations</source>
+        <translation>O desenvolvimento do IPBC é unicamente suportado através de doações</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="113"/>
@@ -2099,8 +2099,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="162"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support BitTube development. For instance, a 50% autodonation take a transaction fee of 0.005 TUBE and add a 0.0025 TUBE to support BitTube development.</source>
-        <translation>Para cada transação uma pequena taxa é sempre cobrada. Esta opção permite adicionar uma quantia adicional de percentagem desta taxa para ajudar o desenvolvimento do BitTube. Por exemplo, 50% de auto-doação numa taxa de transferência de 0.005 TUBE adiciona 0.0025 TUBE que será enviado para o fundo comum de ajuda ao desenvolvimento do BitTube.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support IPBC development. For instance, a 50% autodonation take a transaction fee of 0.005 TUBE and add a 0.0025 TUBE to support IPBC development.</source>
+        <translation>Para cada transação uma pequena taxa é sempre cobrada. Esta opção permite adicionar uma quantia adicional de percentagem desta taxa para ajudar o desenvolvimento do IPBC. Por exemplo, 50% de auto-doação numa taxa de transferência de 0.005 TUBE adiciona 0.0025 TUBE que será enviado para o fundo comum de ajuda ao desenvolvimento do IPBC.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="174"/>
@@ -2109,8 +2109,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="190"/>
-        <source>Mining secures the BitTube network, and also pays a small reward for the work done. This option will let BitTube mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Minerar protege a rede do BitTube e pode premiar o minerador com uma pequena quantia de BitTube pelo trabalho feito. Esta opção irá permitir que o seu computador seja usado para minerar BitTube quando estiver sem utilização. A mineração será interrompida quando você voltar a utilizar o computador.</translation>
+        <source>Mining secures the IPBC network, and also pays a small reward for the work done. This option will let IPBC mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Minerar protege a rede do IPBC e pode premiar o minerador com uma pequena quantia de IPBC pelo trabalho feito. Esta opção irá permitir que o seu computador seja usado para minerar IPBC quando estiver sem utilização. A mineração será interrompida quando você voltar a utilizar o computador.</translation>
     </message>
 </context>
 <context>
@@ -2202,8 +2202,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="367"/>
-        <source>USE BITTUBE</source>
-        <translation>USAR O BITTUBE</translation>
+        <source>USE IPBC</source>
+        <translation>USAR O IPBC</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="380"/>
@@ -2308,8 +2308,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="75"/>
-        <source>Welcome to BitTube!</source>
-        <translation>Bem-vindo ao BitTube!</translation>
+        <source>Welcome to IPBC!</source>
+        <translation>Bem-vindo ao IPBC!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="86"/>
@@ -2383,8 +2383,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="73"/>
-        <source>Welcome to BitTube!</source>
-        <translation>Bem-vindo ao BitTube!</translation>
+        <source>Welcome to IPBC!</source>
+        <translation>Bem-vindo ao IPBC!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="83"/>
@@ -2677,8 +2677,8 @@ Spending address index: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1783"/>
-        <source>New version of bittube-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>Nova versão da GUI do BitTube disponível: %1&lt;br&gt;%2</translation>
+        <source>New version of IPBC-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>Nova versão da GUI do IPBC disponível: %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1815"/>
@@ -2749,8 +2749,8 @@ Spending address index: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1285"/>
-        <source>BitTube</source>
-        <translation>BitTube</translation>
+        <source>IPBC</source>
+        <translation>IPBC</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1441"/>
