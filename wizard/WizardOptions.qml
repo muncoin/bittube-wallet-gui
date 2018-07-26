@@ -49,7 +49,7 @@ ColumnLayout {
         appWindow.persistentSettings.language = wizard.settings.language
         appWindow.persistentSettings.locale   = wizard.settings.locale
 
-        //appWindow.persistentSettings.nettype = NetworkType.MAINNET;
+        appWindow.persistentSettings.nettype = NetworkType.MAINNET;
         return true;
     }
 

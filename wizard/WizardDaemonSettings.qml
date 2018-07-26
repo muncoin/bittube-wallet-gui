@@ -50,7 +50,7 @@ ColumnLayout {
 
     function onPageOpened(settingsObject) {
         appWindow.persistentSettings.useRemoteNode = true;
-        appWindow.persistentSettings.remoteNodeAddress = "213.133.103.136:34282";
+        appWindow.persistentSettings.remoteNodeAddress = "127.0.0.1:24282";
 
     }
     function onWizardRestarted(){
